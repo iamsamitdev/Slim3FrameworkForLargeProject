@@ -14,7 +14,7 @@ final class UserClass
         return $this->db;
     }
 
-    // Get All Product
+    // Get All  Users
     public function getUser($request, $response)
     {
         // Read product
@@ -45,7 +45,7 @@ final class UserClass
     }
 
 
-    // Get Product By ID
+    // Get Users By ID
     public function getUserByID($request, $response, $args){
 
         $db = $this->db_connect();
